@@ -21,5 +21,5 @@ Return the maximum amount of water a container can store.
 
 [LeetCode](https://leetcode.com/submissions/detail/704117776/)
 
-[![Run on Repl.it](https://repl.it/badge/github/oscharko/LeetCode-11-Container-With-Most-Water)](https://repl.it/github/oscharko/LeetCode-11-Container-With-Most-Water)
+[![Run on Repl.it](https://repl.it/badge/github/oscharko/LeetCode-11-Container-With-Most-Water)](https://replit.com/@oscharko/LeetCode-11-Container-With-Most-Water)
 
