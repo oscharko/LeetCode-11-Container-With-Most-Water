@@ -1,8 +1,6 @@
 const height: number[] = [1, 8, 6, 2, 5, 4, 8, 3, 7];
 function maxArea(array: number[]): number {
-  let target: number = 0;
-  let run: number = 0;
-  let arrayLength: number = array.length - 1;
+  let target: number = 0, run: number = 0, arrayLength: number = array.length - 1;
   while (run < arrayLength) {
     target = Math.max(
       target,

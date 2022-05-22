@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "sources": [],
-  "sourcesContent": [],
-  "mappings": "",
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const height: number[] = [1, 8, 6, 2, 5, 4, 8, 3, 7];\nfunction maxArea(array: number[]): number {\n  let target: number = 0, run: number = 0, arrayLength: number = array.length - 1;\n  while (run < arrayLength) {\n    target = Math.max(\n      target,\n      Math.min(array[run], array[arrayLength]) * (arrayLength - run)\n    );\n    if (array[run] < array[arrayLength]) {\n      run++;\n    } else {\n      arrayLength--;\n    }\n  }\n  return target;\n};\nconsole.log(maxArea(height));"],
+  "mappings": "AAAA,MAAM,SAAmB,CAAC,GAAG,GAAG,GAAG,GAAG,GAAG,GAAG,GAAG,GAAG;AAClD,iBAAiB,OAAyB;AACxC,MAAI,SAAiB,GAAG,MAAc,GAAG,cAAsB,MAAM,SAAS;AAC9E,SAAO,MAAM,aAAa;AACxB,aAAS,KAAK,IACZ,QACA,KAAK,IAAI,MAAM,MAAM,MAAM,gBAAiB,eAAc;AAE5D,QAAI,MAAM,OAAO,MAAM,cAAc;AACnC;AAAA,WACK;AACL;AAAA;AAAA;AAGJ,SAAO;AAAA;AACR;AACD,QAAQ,IAAI,QAAQ;",
   "names": []
 }
